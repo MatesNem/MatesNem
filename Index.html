@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Matěj Němec</title>
-    <link rel="stylesheet" href="Matěj Němec.css">
+    <link rel="stylesheet" href="Mates.css">
+    <script src="matej.js"></script>
 </head>
+
 <body>
-    <H1>Ahoj! Já jsem Matěj Němec</H1>
-    <img class="photo" height="250px" src="lol.jfif">
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mawYSZHKnsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h1 id="ja1">I'm Matěj Němec!</h1>
+    <div id="div1">
+        <p id="p1">Hi I am Matěj Němec.I am a 12 year old boy learning <br> HTML5 CSS3 and JavaScript.
+            I was born on June 26, 2007.On hobby <a href="https://makeittoday.cz/"
+                target="_blank">makeittoday</a> where I learn to program and code. I started going to the hobby at
+                in 2016 when I was 9 years old.
+        </p>
+
+    </div>
+
+
+    <img id="img1" height="250px" width="250px" src="Matěj Němec.jpg">
+        <div id="div3">
+    
+           
+            <span>The programing and coding languages I would like to learn are:</span>
+            <p id="p2">HTML5 <br> CSS3 <br>JavaScript<br>Pyhton<br>Java<br>C++</p>
+            
+
+        </div>
+        <br>
+        <div id="div4">
+    <span>My favourite:</span>
+            <p id="p2">computer game is Counter-Strike: Global Offensive<br>Movie is Ready Player One<br>sports are Football,Table Tennis and Tennis<br>school subject is Math<br>band is Nike<br>cartoon is Simpsons </p>
+        </div>
+    <div id="div2">
+
+        <img id="img2" height="250px" width="400px"
+            src="data:image/png;base64,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">
+
+        <iframe width="400" height="240" src="https://www.youtube.com/embed/mU6anWqZJcc"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
 </body>
+
 </html>
