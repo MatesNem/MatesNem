@@ -1,16 +1,71 @@
-h1{
+#img1{
+   border-radius: 50%;
+   margin: 0;
   
-}
-body{ 
-background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-height: 100%;
-margin: 0;
-text-align: center;
-}
-img{
-    border-radius: 360px;   
-}
-.photo:hover {
-    box-shadow:0 0 5em 	#ff00ff ;
+ 
+   }
+   #img1:hover {
+
+    box-shadow:0 0 5em 	#073ff5 ;
     transition: all 0.4s;
+   }
+   
+
+body{
+   
+    width: 100%;
+    background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1{
+    text-align: center;
+}
+.ja1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#img2{
+    
+    float: left;
+   
+    
+}
+iframe{
+    display: flex;
+    justify-content:center ;
+    right: auto;
+    left:auto ;
+}
+#div1{
+    float: left;
+    width: 500px;
+}
+
+#div3{
+   
+    width: 440px;
+    float: right; 
+    background-color: black;
+    height: 30px;  
+}
+#div3:hover{
+    height: 150px;
+}
+
+#div4{
+   
+    width: 440px;
+    float: right; 
+    background-color: black;
+    height: 30px;  
+}
+#div4:hover{
+    height: 150px;
+}
+#p2{
+    color: #8eb92a ;
+}
+span{
+    color: white;
 }
