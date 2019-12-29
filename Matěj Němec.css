@@ -61,7 +61,7 @@ iframe{
     height: 30px;  
 }
 #div4:hover{
-    height: 150px;
+    height: 160px;
 }
 #p2{
     color: #8eb92a ;
@@ -69,3 +69,5 @@ iframe{
 span{
     color: white;
 }
+button{ color: #8eb92a}
+audio{ color: #8eb92a}
