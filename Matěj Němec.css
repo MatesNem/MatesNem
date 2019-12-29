@@ -61,7 +61,7 @@ iframe{
     height: 30px;  
 }
 #div4:hover{
-    height: 160px;
+    height: 165px;
 }
 #p2{
     color: #8eb92a ;
@@ -70,4 +70,4 @@ span{
     color: white;
 }
 button{ color: #8eb92a}
-audio{ color: #8eb92a}
+audio{background-color: #8eb92a}
